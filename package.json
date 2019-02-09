@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "pulp test",
+    "build": "pulp build --to dist/todolist.js"
+  },
+  "dependencies": {
+    "todomvc-app-css": "^2.0.0",
+    "todomvc-common": "^1.0.0"
+  },
+  "devDependencies": {
+    "psc-package": "^3.0.1",
+    "pulp": "^12.3.1"
+  }
+}
