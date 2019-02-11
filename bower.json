@@ -1,0 +1,26 @@
+{
+  "name": "halogen-todolist",
+  "description": "",
+  "main": "index.html",
+  "authors": [
+    "Daniel Esteban Cardona Rojas <d.cardona.rojas@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "purescript-halogen": "^4.0.0",
+    "purescript-maybe": "^4.0.1",
+    "purescript-prelude": "^4.1.0",
+    "purescript-effect": "^2.0.1",
+    "purescript-console": "^4.2.0",
+    "purescript-psci-support": "^4.0.0"
+  }
+}
